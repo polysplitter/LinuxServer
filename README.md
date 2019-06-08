@@ -1,5 +1,10 @@
 # Catalog Application Served on Apache2
 
+## Addresses
+* IP: 99.79.100.96 -- only the domain will work with authorization.
+* SSH: 2200
+* Domain: https://kylehansen.dev
+
 ## Summary
 
 #### using Ubuntu 18.04 LTS
@@ -86,12 +91,6 @@ When you sign in with the postgres user you can create a new user with the same 
 update my configuration file for the site, and restart apache2.
 
 ---
-## Addresses
-* IP: 99.79.100.96 -- only the domain will work with authorization.
-* SSH: 2200
-* Domain: https://kylehansen.dev
-
----
 ## Website
 * Source: https://github.com/polysplitter/catalog
 
@@ -111,4 +110,3 @@ update my configuration file for the site, and restart apache2.
 * [apache2](https://httpd.apache.org/)
 * [ibapache2-mod-wsgi-py3](https://packages.ubuntu.com/bionic/libapache2-mod-wsgi-py3)
 * [postgres](https://www.postgresql.org/)
----
